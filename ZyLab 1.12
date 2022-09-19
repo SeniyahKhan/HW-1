@@ -1,0 +1,6 @@
+#Seniyah Khan 1973047
+
+userNum = int(input())
+userNumSquared = userNum * userNum
+
+print(userNumSquared)
