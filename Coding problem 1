@@ -1,0 +1,26 @@
+#Seniyah Khan 1973047
+
+#start the code with the title
+print('Birthday calculator\nCurrent day')
+
+#create areas for the user to input their information
+month_cur = int(input('Month:'))
+day_cur = int(input('Day: '))
+year_cur = int(input('Year: '))
+#Print the birthday
+print('Birthday')
+#Insert area for the user to input their birthday
+month_birth = int(input('Month:'))
+day_birth = int(input('Day: '))
+year_birth = int(input('Year: '))
+# Create a function and add an if else block
+year= year_cur-year_birth
+if (month_birth < month_cur):
+    year+=1
+elif(month_cur==month_birth):
+    if(day_birth<day_cur):
+        year+=1
+if(month_birth==month_birth and day_cur==day_birth):
+    print('Happy Birthday!')
+print('You are ' + str(-year) + " years old.")
+#print the statement if the date and years are the same
